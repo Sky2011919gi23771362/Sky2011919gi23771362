@@ -2,5 +2,5 @@
     "port": "COM3",
     "configuration": "PartitionScheme=default,CPUFreq=160,FlashMode=qio,FlashFreq=80,FlashSize=2M,UploadSpeed=115200,DebugLevel=none",
     "board": "esp32:esp32:esp32c3",
-    "sketch": "LED_RGB.ino"
+    "sketch": "Blink.ino"
 }
