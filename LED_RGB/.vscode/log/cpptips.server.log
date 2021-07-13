@@ -1,8 +1,11 @@
-[2021-07-11T06:13:43.896] [DEBUG] cpptips - root path c:\Users\User\OneDrive\Desktop\LED_RGB
-[2021-07-11T06:13:43.921] [DEBUG] cpptips - userconfig {"needLoadLinkDir":[],"needLoadDir":[],"ignorDir":[],"ignoreFileAndDir":["^[.~]{1,1}[.]{1,128}$","^.*_tools_pb\\.(cpp|h)$","^.*testimpl_pb\\.(cpp|h)$","^.*\\.pb\\.(cc|h)$","^(sk_|sm_)[a-z0-9_.]{1,128}$","^mm3rd$","^lib32$","^lib64$","^lib64_debug$","^lib64_release$","^lib32_debug$","^lib32_release$","^debug$","^release$","^win32$","^bin$","^\\.svn$","^\\.git$","^\\.vscode$","^build64_fastbuild$"],"updateCheckIntervalTime":600000000,"defaultbuildscript":"function GetBuildCommands(hander, dirname, isCommd = true){\n\tlet commids = {\n\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n\t};\n\thander.CallBack(0, commids, dirname);\n}","updateCheckUrl":"http://9.134.38.144:8888","buildParams":""}
-[2021-07-11T06:13:43.922] [INFO] cpptips - config: {
-  basedir: 'c:/Users/User/OneDrive/Desktop/LED_RGB/',
-  dbpath: 'c:/Users/User/OneDrive/Desktop/LED_RGB//.vscode/db/cpptips.db',
+[2021-07-14T04:02:48.856] [DEBUG] cpptips - root path d:\ESP_1\LED_RGB
+[2021-07-14T04:02:48.869] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:02:48.869] [INFO] cpptips - LED_RGB.ino
+[2021-07-14T04:02:48.869] [DEBUG] cpptips - debug: file:///d%3A/ESP_1/LED_RGB/LED_RGB.ino d:/ESP_1/LED_RGB/ LED_RGB.ino
+[2021-07-14T04:02:48.880] [DEBUG] cpptips - userconfig {"needLoadLinkDir":[],"needLoadDir":[],"ignorDir":[],"ignoreFileAndDir":["^[.~]{1,1}[.]{1,128}$","^.*_tools_pb\\.(cpp|h)$","^.*testimpl_pb\\.(cpp|h)$","^.*\\.pb\\.(cc|h)$","^(sk_|sm_)[a-z0-9_.]{1,128}$","^mm3rd$","^lib32$","^lib64$","^lib64_debug$","^lib64_release$","^lib32_debug$","^lib32_release$","^debug$","^release$","^win32$","^bin$","^\\.svn$","^\\.git$","^\\.vscode$","^build64_fastbuild$"],"updateCheckIntervalTime":600000000,"defaultbuildscript":"function GetBuildCommands(hander, dirname, isCommd = true){\n\tlet commids = {\n\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n\t};\n\thander.CallBack(0, commids, dirname);\n}","updateCheckUrl":"http://9.134.38.144:8888","buildParams":""}
+[2021-07-14T04:02:48.881] [INFO] cpptips - config: {
+  basedir: 'd:/ESP_1/LED_RGB/',
+  dbpath: 'd:/ESP_1/LED_RGB//.vscode/db/cpptips.db',
   showsql: 0,
   extpath: 'c:\\Users\\User\\.vscode\\extensions\\widyhu.cpptips-0.4.14',
   userConfig: {
@@ -42,22 +45,857 @@
     buildParams: ''
   }
 }
-[2021-07-11T06:13:43.923] [INFO] cpptips - db path! c:/Users/User/OneDrive/Desktop/LED_RGB//.vscode/db/cpptips.db c:/Users/User/OneDrive/Desktop/LED_RGB//.vscode/db
-[2021-07-11T06:13:43.923] [INFO] cpptips - KeyWordStore in constructor
-[2021-07-11T06:13:43.923] [INFO] cpptips - databasepath: c:/Users/User/OneDrive/Desktop/LED_RGB//.vscode/db/cpptips.db
-[2021-07-11T06:13:44.460] [ERROR] cpptips - not find t_keyword, create table now
-[2021-07-11T06:13:45.246] [INFO] cpptips - FileIndexStore in constructor
-[2021-07-11T06:13:45.249] [ERROR] cpptips - not find t_fileindex, create table now
-[2021-07-11T06:13:45.252] [DEBUG] cpptips - create trigger. on delete
-[2021-07-11T06:13:45.252] [INFO] cpptips - begin _initSystemIncludeIndex!
-[2021-07-11T06:13:53.351] [INFO] cpptips - begin _reloadAllIncludeFile!
-[2021-07-11T06:13:53.372] [DEBUG] cpptips - _reloadAllIncludeFile {"msg_type":0,"data":{"basepath":"c:/Users/User/OneDrive/Desktop/LED_RGB/","dbpath":"c:/Users/User/OneDrive/Desktop/LED_RGB//.vscode/db/cpptips.db","userConfig":{"needLoadLinkDir":[],"needLoadDir":[],"ignorDir":[],"ignoreFileAndDir":["^[.~]{1,1}[.]{1,128}$","^.*_tools_pb\\.(cpp|h)$","^.*testimpl_pb\\.(cpp|h)$","^.*\\.pb\\.(cc|h)$","^(sk_|sm_)[a-z0-9_.]{1,128}$","^mm3rd$","^lib32$","^lib64$","^lib64_debug$","^lib64_release$","^lib32_debug$","^lib32_release$","^debug$","^release$","^win32$","^bin$","^\\.svn$","^\\.git$","^\\.vscode$","^build64_fastbuild$"],"updateCheckIntervalTime":600000000,"defaultbuildscript":"function GetBuildCommands(hander, dirname, isCommd = true){\n\tlet commids = {\n\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n\t};\n\thander.CallBack(0, commids, dirname);\n}","updateCheckUrl":"http://9.134.38.144:8888","buildParams":""}}}
-[2021-07-11T06:15:15.750] [INFO] cpptips - Set {}
-[2021-07-11T06:16:14.825] [INFO] cpptips - c:\Users\User\.vscode\extensions\chjshen.lanteach-client-0.0.3\images\media\src\ex.cc
-[2021-07-11T06:16:14.826] [DEBUG] cpptips - onDidOpenTextDocument file:///c%3A/Users/User/.vscode/extensions/chjshen.lanteach-client-0.0.3/images/media/src/ex.cc
-[2021-07-11T06:16:14.978] [INFO] cpptips - c:\Users\User\.vscode\extensions\chjshen.lanteach-client-0.0.3\images\media\src\ex.cc
-[2021-07-11T06:16:14.978] [DEBUG] cpptips - onDocumentSymbol file:///c%3A/Users/User/.vscode/extensions/chjshen.lanteach-client-0.0.3/images/media/src/ex.cc
-[2021-07-11T06:16:48.904] [INFO] cpptips - {"changes":[{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wstdio.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40string.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40yvals.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_stdio_config.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_memory.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wstring.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_memcpy_s.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40crtdbg.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40errno.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime_new_debug.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40yvals_core.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40concurrencysal.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vadefs.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40sal.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xkeycheck.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40sys%40types.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40limits.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40stdio.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime_new.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40crtdefs.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40use_ansi.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40math.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_math.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40stdlib.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wctype.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_malloc.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wstdlib.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_search.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40stddef.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime_string.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40wchar.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wconio.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wdirect.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wio.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_share.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wprocess.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wtime.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40sys%40stat.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40stdint.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40share.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40malloc.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime_exception.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40eh.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_terminate.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40float.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40intrin0.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40isa_availability.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xatomic.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40__msvc_system_error_abi.hpp","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xcall_once.h","type":1}]}
-[2021-07-11T06:16:48.904] [INFO] cpptips - Set {}
-[2021-07-11T06:16:49.183] [INFO] cpptips - {"changes":[{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xerrc.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xthreads.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xtimec.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40time.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime_typeinfo.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xlocinfo.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40ctype.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40locale.h","type":1},{"uri":"file:///c%3A/Users/User/OneDrive/Desktop/LED_RGB/.vscode/esls-cache/%40C%40%40Users%40User%40OneDrive%40Desktop%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xcall_once.h","type":2}]}
-[2021-07-11T06:16:49.183] [INFO] cpptips - Set {}
+[2021-07-14T04:02:48.882] [INFO] cpptips - db path! d:/ESP_1/LED_RGB//.vscode/db/cpptips.db d:/ESP_1/LED_RGB//.vscode/db
+[2021-07-14T04:02:48.883] [INFO] cpptips - KeyWordStore in constructor
+[2021-07-14T04:02:48.883] [INFO] cpptips - databasepath: d:/ESP_1/LED_RGB//.vscode/db/cpptips.db
+[2021-07-14T04:02:51.009] [INFO] cpptips - FileIndexStore in constructor
+[2021-07-14T04:02:51.011] [INFO] cpptips - begin _initSystemIncludeIndex!
+[2021-07-14T04:02:51.044] [DEBUG] cpptips - fileerror
+[2021-07-14T04:02:51.046] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:02:51.046] [DEBUG] cpptips - begin getDocumentTree
+[2021-07-14T04:02:51.046] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:02:51.047] [DEBUG] cpptips - getDocumentTree file type not match!
+[2021-07-14T04:02:51.047] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:02:51.048] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:02:51.048] [INFO] cpptips - 20 5
+[2021-07-14T04:02:51.048] [DEBUG] cpptips - begin getDefinePoint
+[2021-07-14T04:02:51.048] [MARK] cpptips - getDefinePoint
+[2021-07-14T04:02:51.048] [DEBUG] cpptips - getDefinePoint file type not match!
+[2021-07-14T04:02:51.048] [MARK] cpptips - getDefinePoint
+[2021-07-14T04:04:59.409] [INFO] cpptips - c:\Users\User\.vscode\extensions\chjshen.lanteach-client-0.0.3\images\media\src\ex.cc
+[2021-07-14T04:04:59.409] [DEBUG] cpptips - onDidOpenTextDocument file:///c%3A/Users/User/.vscode/extensions/chjshen.lanteach-client-0.0.3/images/media/src/ex.cc
+[2021-07-14T04:04:59.810] [INFO] cpptips - c:\Users\User\.vscode\extensions\chjshen.lanteach-client-0.0.3\images\media\src\ex.cc
+[2021-07-14T04:04:59.810] [DEBUG] cpptips - onDocumentSymbol file:///c%3A/Users/User/.vscode/extensions/chjshen.lanteach-client-0.0.3/images/media/src/ex.cc
+[2021-07-14T04:04:59.910] [INFO] cpptips - c:\Users\User\.vscode\extensions\chjshen.lanteach-client-0.0.3\images\media\src\ex.cc
+[2021-07-14T04:04:59.910] [DEBUG] cpptips - onDocumentSymbol file:///c%3A/Users/User/.vscode/extensions/chjshen.lanteach-client-0.0.3/images/media/src/ex.cc
+[2021-07-14T04:05:53.082] [INFO] cpptips - {"changes":[{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wstdio.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40string.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40yvals.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_stdio_config.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_memory.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wstring.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_memcpy_s.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40crtdbg.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40errno.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime_new_debug.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40yvals_core.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40concurrencysal.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vadefs.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40sal.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xkeycheck.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40sys%40types.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40limits.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40stdio.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime_new.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40crtdefs.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40use_ansi.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40math.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_math.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40stdlib.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wctype.h","type":1}]}
+[2021-07-14T04:05:53.083] [INFO] cpptips - Set {}
+[2021-07-14T04:05:53.359] [INFO] cpptips - {"changes":[{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_malloc.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wstdlib.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_search.h","type":1}]}
+[2021-07-14T04:05:53.359] [INFO] cpptips - Set {}
+[2021-07-14T04:05:53.886] [INFO] cpptips - {"changes":[{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40stddef.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime_string.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40wchar.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wconio.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wdirect.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wio.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_share.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wprocess.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wtime.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40sys%40stat.h","type":1}]}
+[2021-07-14T04:05:53.886] [INFO] cpptips - Set {}
+[2021-07-14T04:05:55.247] [INFO] cpptips - {"changes":[{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40stdint.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40stdint.h","type":2}]}
+[2021-07-14T04:05:55.248] [INFO] cpptips - Set {}
+[2021-07-14T04:05:56.228] [INFO] cpptips - {"changes":[{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40share.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40malloc.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime_exception.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40__msvc_system_error_abi.hpp","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40eh.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_terminate.h","type":1}]}
+[2021-07-14T04:05:56.229] [INFO] cpptips - Set {}
+[2021-07-14T04:05:56.961] [INFO] cpptips - {"changes":[{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40float.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40intrin0.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40isa_availability.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xatomic.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xcall_once.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xerrc.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xthreads.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xtimec.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40time.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime_typeinfo.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xlocinfo.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40ctype.h","type":1},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40locale.h","type":1}]}
+[2021-07-14T04:05:56.961] [INFO] cpptips - Set {}
+[2021-07-14T04:07:00.260] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:07:00.261] [DEBUG] cpptips - begin getDocumentTree
+[2021-07-14T04:07:00.261] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:07:00.261] [DEBUG] cpptips - getDocumentTree file type not match!
+[2021-07-14T04:07:00.261] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:07:59.438] [INFO] cpptips - c:\Users\User\.vscode\extensions\chjshen.lanteach-client-0.0.3\images\media\src\ex.cc
+[2021-07-14T04:07:59.438] [DEBUG] cpptips - onDidOpenTextDocument file:///c%3A/Users/User/.vscode/extensions/chjshen.lanteach-client-0.0.3/images/media/src/ex.cc
+[2021-07-14T04:16:12.507] [DEBUG] cpptips - root path d:\ESP_1\LED_RGB
+[2021-07-14T04:16:13.110] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:16:13.110] [INFO] cpptips - LED_RGB.ino
+[2021-07-14T04:16:13.110] [DEBUG] cpptips - debug: file:///d%3A/ESP_1/LED_RGB/LED_RGB.ino d:/ESP_1/LED_RGB/ LED_RGB.ino
+[2021-07-14T04:16:13.625] [DEBUG] cpptips - fileerror
+[2021-07-14T04:16:14.817] [INFO] cpptips - c:\Users\User\.vscode\extensions\chjshen.lanteach-client-0.0.3\images\media\src\ex.cc
+[2021-07-14T04:16:14.817] [DEBUG] cpptips - onDidOpenTextDocument file:///c%3A/Users/User/.vscode/extensions/chjshen.lanteach-client-0.0.3/images/media/src/ex.cc
+[2021-07-14T04:16:17.939] [DEBUG] cpptips - userconfig {"needLoadLinkDir":[],"needLoadDir":[],"ignorDir":[],"ignoreFileAndDir":["^[.~]{1,1}[.]{1,128}$","^.*_tools_pb\\.(cpp|h)$","^.*testimpl_pb\\.(cpp|h)$","^.*\\.pb\\.(cc|h)$","^(sk_|sm_)[a-z0-9_.]{1,128}$","^mm3rd$","^lib32$","^lib64$","^lib64_debug$","^lib64_release$","^lib32_debug$","^lib32_release$","^debug$","^release$","^win32$","^bin$","^\\.svn$","^\\.git$","^\\.vscode$","^build64_fastbuild$"],"updateCheckIntervalTime":600000000,"defaultbuildscript":"function GetBuildCommands(hander, dirname, isCommd = true){\n\tlet commids = {\n\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n\t};\n\thander.CallBack(0, commids, dirname);\n}","updateCheckUrl":"http://9.134.38.144:8888","buildParams":""}
+[2021-07-14T04:16:17.939] [INFO] cpptips - config: {
+  basedir: 'd:/ESP_1/LED_RGB/',
+  dbpath: 'd:/ESP_1/LED_RGB//.vscode/db/cpptips.db',
+  showsql: 0,
+  extpath: 'c:\\Users\\User\\.vscode\\extensions\\widyhu.cpptips-0.4.14',
+  userConfig: {
+    needLoadLinkDir: [],
+    needLoadDir: [],
+    ignorDir: [],
+    ignoreFileAndDir: [
+      '^[.~]{1,1}[.]{1,128}$',
+      '^.*_tools_pb\\.(cpp|h)$',
+      '^.*testimpl_pb\\.(cpp|h)$',
+      '^.*\\.pb\\.(cc|h)$',
+      '^(sk_|sm_)[a-z0-9_.]{1,128}$',
+      '^mm3rd$',
+      '^lib32$',
+      '^lib64$',
+      '^lib64_debug$',
+      '^lib64_release$',
+      '^lib32_debug$',
+      '^lib32_release$',
+      '^debug$',
+      '^release$',
+      '^win32$',
+      '^bin$',
+      '^\\.svn$',
+      '^\\.git$',
+      '^\\.vscode$',
+      '^build64_fastbuild$'
+    ],
+    updateCheckIntervalTime: 600000000,
+    defaultbuildscript: 'function GetBuildCommands(hander, dirname, isCommd = true){\n' +
+      '\tlet commids = {\n' +
+      "\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n" +
+      '\t};\n' +
+      '\thander.CallBack(0, commids, dirname);\n' +
+      '}',
+    updateCheckUrl: 'http://9.134.38.144:8888',
+    buildParams: ''
+  }
+}
+[2021-07-14T04:16:17.940] [INFO] cpptips - db path! d:/ESP_1/LED_RGB//.vscode/db/cpptips.db d:/ESP_1/LED_RGB//.vscode/db
+[2021-07-14T04:16:17.941] [INFO] cpptips - KeyWordStore in constructor
+[2021-07-14T04:16:17.941] [INFO] cpptips - databasepath: d:/ESP_1/LED_RGB//.vscode/db/cpptips.db
+[2021-07-14T04:16:17.944] [INFO] cpptips - FileIndexStore in constructor
+[2021-07-14T04:16:17.945] [INFO] cpptips - begin _initSystemIncludeIndex!
+[2021-07-14T04:16:18.464] [INFO] cpptips - begin _reloadAllIncludeFile!
+[2021-07-14T04:16:18.483] [DEBUG] cpptips - _reloadAllIncludeFile {"msg_type":0,"data":{"basepath":"d:/ESP_1/LED_RGB/","dbpath":"d:/ESP_1/LED_RGB//.vscode/db/cpptips.db","userConfig":{"needLoadLinkDir":[],"needLoadDir":[],"ignorDir":[],"ignoreFileAndDir":["^[.~]{1,1}[.]{1,128}$","^.*_tools_pb\\.(cpp|h)$","^.*testimpl_pb\\.(cpp|h)$","^.*\\.pb\\.(cc|h)$","^(sk_|sm_)[a-z0-9_.]{1,128}$","^mm3rd$","^lib32$","^lib64$","^lib64_debug$","^lib64_release$","^lib32_debug$","^lib32_release$","^debug$","^release$","^win32$","^bin$","^\\.svn$","^\\.git$","^\\.vscode$","^build64_fastbuild$"],"updateCheckIntervalTime":600000000,"defaultbuildscript":"function GetBuildCommands(hander, dirname, isCommd = true){\n\tlet commids = {\n\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n\t};\n\thander.CallBack(0, commids, dirname);\n}","updateCheckUrl":"http://9.134.38.144:8888","buildParams":""}}}
+[2021-07-14T04:16:20.489] [INFO] cpptips - {"changes":[{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wstdio.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40string.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40yvals.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_stdio_config.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_stdio_config.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_memory.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wstring.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_memcpy_s.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40crtdbg.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40errno.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime_new_debug.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40yvals_core.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40concurrencysal.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vadefs.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40sal.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xkeycheck.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40sys%40types.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40limits.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40stdio.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime_new.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40crtdefs.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40use_ansi.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40math.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_math.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40stdlib.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wctype.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_malloc.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wstdlib.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_search.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40stddef.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime_string.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40wchar.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wconio.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wdirect.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wio.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_share.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wprocess.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wtime.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40sys%40stat.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40stdint.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40share.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40malloc.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime_exception.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40eh.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_terminate.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40float.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40intrin0.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40isa_availability.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xatomic.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xcall_once.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xerrc.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xthreads.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xtimec.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40time.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime_typeinfo.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xlocinfo.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40ctype.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40locale.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40__msvc_system_error_abi.hpp","type":2}]}
+[2021-07-14T04:16:20.490] [INFO] cpptips - Set {}
+[2021-07-14T04:16:22.022] [INFO] cpptips - c:\Users\User\.vscode\extensions\chjshen.lanteach-client-0.0.3\images\media\src\ex.cc
+[2021-07-14T04:16:22.022] [DEBUG] cpptips - onDocumentSymbol file:///c%3A/Users/User/.vscode/extensions/chjshen.lanteach-client-0.0.3/images/media/src/ex.cc
+[2021-07-14T04:16:22.054] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:16:22.054] [DEBUG] cpptips - begin getDocumentTree
+[2021-07-14T04:16:22.054] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:16:22.054] [DEBUG] cpptips - getDocumentTree file type not match!
+[2021-07-14T04:16:22.054] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:17:41.164] [INFO] cpptips - Set {}
+[2021-07-14T04:19:03.298] [INFO] cpptips - c:\Users\User\.vscode\extensions\chjshen.lanteach-client-0.0.3\images\media\src\ex.cc
+[2021-07-14T04:19:03.298] [DEBUG] cpptips - onDidOpenTextDocument file:///c%3A/Users/User/.vscode/extensions/chjshen.lanteach-client-0.0.3/images/media/src/ex.cc
+[2021-07-14T04:19:03.366] [INFO] cpptips - c:\Users\User\.vscode\extensions\chjshen.lanteach-client-0.0.3\images\media\src\ex.cc
+[2021-07-14T04:19:03.366] [DEBUG] cpptips - onDidOpenTextDocument file:///c%3A/Users/User/.vscode/extensions/chjshen.lanteach-client-0.0.3/images/media/src/ex.cc
+[2021-07-14T04:19:14.535] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:19:14.536] [DEBUG] cpptips - begin getDocumentTree
+[2021-07-14T04:19:14.536] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:19:14.536] [DEBUG] cpptips - getDocumentTree file type not match!
+[2021-07-14T04:19:14.536] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:22:03.377] [INFO] cpptips - c:\Users\User\.vscode\extensions\chjshen.lanteach-client-0.0.3\images\media\src\ex.cc
+[2021-07-14T04:22:03.377] [DEBUG] cpptips - onDidOpenTextDocument file:///c%3A/Users/User/.vscode/extensions/chjshen.lanteach-client-0.0.3/images/media/src/ex.cc
+[2021-07-14T04:22:03.444] [INFO] cpptips - c:\Users\User\.vscode\extensions\chjshen.lanteach-client-0.0.3\images\media\src\ex.cc
+[2021-07-14T04:22:03.444] [DEBUG] cpptips - onDidOpenTextDocument file:///c%3A/Users/User/.vscode/extensions/chjshen.lanteach-client-0.0.3/images/media/src/ex.cc
+[2021-07-14T04:25:03.846] [INFO] cpptips - c:\Users\User\.vscode\extensions\chjshen.lanteach-client-0.0.3\images\media\src\ex.cc
+[2021-07-14T04:25:03.846] [DEBUG] cpptips - onDidOpenTextDocument file:///c%3A/Users/User/.vscode/extensions/chjshen.lanteach-client-0.0.3/images/media/src/ex.cc
+[2021-07-14T04:25:03.946] [INFO] cpptips - c:\Users\User\.vscode\extensions\chjshen.lanteach-client-0.0.3\images\media\src\ex.cc
+[2021-07-14T04:25:03.946] [DEBUG] cpptips - onDidOpenTextDocument file:///c%3A/Users/User/.vscode/extensions/chjshen.lanteach-client-0.0.3/images/media/src/ex.cc
+[2021-07-14T04:26:21.832] [DEBUG] cpptips - on onShutdown
+[2021-07-14T04:26:52.512] [DEBUG] cpptips - root path d:\ESP_1\LED_RGB
+[2021-07-14T04:26:54.142] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:26:54.142] [INFO] cpptips - LED_RGB.ino
+[2021-07-14T04:26:54.142] [DEBUG] cpptips - debug: file:///d%3A/ESP_1/LED_RGB/LED_RGB.ino d:/ESP_1/LED_RGB/ LED_RGB.ino
+[2021-07-14T04:26:54.400] [INFO] cpptips - c:\Users\User\.vscode\extensions\chjshen.lanteach-client-0.0.3\images\media\src\ex.cc
+[2021-07-14T04:26:54.400] [DEBUG] cpptips - onDidOpenTextDocument file:///c%3A/Users/User/.vscode/extensions/chjshen.lanteach-client-0.0.3/images/media/src/ex.cc
+[2021-07-14T04:26:54.488] [DEBUG] cpptips - userconfig {"needLoadLinkDir":[],"needLoadDir":[],"ignorDir":[],"ignoreFileAndDir":["^[.~]{1,1}[.]{1,128}$","^.*_tools_pb\\.(cpp|h)$","^.*testimpl_pb\\.(cpp|h)$","^.*\\.pb\\.(cc|h)$","^(sk_|sm_)[a-z0-9_.]{1,128}$","^mm3rd$","^lib32$","^lib64$","^lib64_debug$","^lib64_release$","^lib32_debug$","^lib32_release$","^debug$","^release$","^win32$","^bin$","^\\.svn$","^\\.git$","^\\.vscode$","^build64_fastbuild$"],"updateCheckIntervalTime":600000000,"defaultbuildscript":"function GetBuildCommands(hander, dirname, isCommd = true){\n\tlet commids = {\n\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n\t};\n\thander.CallBack(0, commids, dirname);\n}","updateCheckUrl":"http://9.134.38.144:8888","buildParams":""}
+[2021-07-14T04:26:54.488] [INFO] cpptips - config: {
+  basedir: 'd:/ESP_1/LED_RGB/',
+  dbpath: 'd:/ESP_1/LED_RGB//.vscode/db/cpptips.db',
+  showsql: 0,
+  extpath: 'c:\\Users\\User\\.vscode\\extensions\\widyhu.cpptips-0.4.14',
+  userConfig: {
+    needLoadLinkDir: [],
+    needLoadDir: [],
+    ignorDir: [],
+    ignoreFileAndDir: [
+      '^[.~]{1,1}[.]{1,128}$',
+      '^.*_tools_pb\\.(cpp|h)$',
+      '^.*testimpl_pb\\.(cpp|h)$',
+      '^.*\\.pb\\.(cc|h)$',
+      '^(sk_|sm_)[a-z0-9_.]{1,128}$',
+      '^mm3rd$',
+      '^lib32$',
+      '^lib64$',
+      '^lib64_debug$',
+      '^lib64_release$',
+      '^lib32_debug$',
+      '^lib32_release$',
+      '^debug$',
+      '^release$',
+      '^win32$',
+      '^bin$',
+      '^\\.svn$',
+      '^\\.git$',
+      '^\\.vscode$',
+      '^build64_fastbuild$'
+    ],
+    updateCheckIntervalTime: 600000000,
+    defaultbuildscript: 'function GetBuildCommands(hander, dirname, isCommd = true){\n' +
+      '\tlet commids = {\n' +
+      "\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n" +
+      '\t};\n' +
+      '\thander.CallBack(0, commids, dirname);\n' +
+      '}',
+    updateCheckUrl: 'http://9.134.38.144:8888',
+    buildParams: ''
+  }
+}
+[2021-07-14T04:26:54.489] [INFO] cpptips - db path! d:/ESP_1/LED_RGB//.vscode/db/cpptips.db d:/ESP_1/LED_RGB//.vscode/db
+[2021-07-14T04:26:54.490] [INFO] cpptips - KeyWordStore in constructor
+[2021-07-14T04:26:54.490] [INFO] cpptips - databasepath: d:/ESP_1/LED_RGB//.vscode/db/cpptips.db
+[2021-07-14T04:26:54.494] [INFO] cpptips - FileIndexStore in constructor
+[2021-07-14T04:26:54.495] [INFO] cpptips - begin _initSystemIncludeIndex!
+[2021-07-14T04:26:54.658] [DEBUG] cpptips - fileerror
+[2021-07-14T04:26:55.320] [INFO] cpptips - begin _reloadAllIncludeFile!
+[2021-07-14T04:26:55.356] [DEBUG] cpptips - _reloadAllIncludeFile {"msg_type":0,"data":{"basepath":"d:/ESP_1/LED_RGB/","dbpath":"d:/ESP_1/LED_RGB//.vscode/db/cpptips.db","userConfig":{"needLoadLinkDir":[],"needLoadDir":[],"ignorDir":[],"ignoreFileAndDir":["^[.~]{1,1}[.]{1,128}$","^.*_tools_pb\\.(cpp|h)$","^.*testimpl_pb\\.(cpp|h)$","^.*\\.pb\\.(cc|h)$","^(sk_|sm_)[a-z0-9_.]{1,128}$","^mm3rd$","^lib32$","^lib64$","^lib64_debug$","^lib64_release$","^lib32_debug$","^lib32_release$","^debug$","^release$","^win32$","^bin$","^\\.svn$","^\\.git$","^\\.vscode$","^build64_fastbuild$"],"updateCheckIntervalTime":600000000,"defaultbuildscript":"function GetBuildCommands(hander, dirname, isCommd = true){\n\tlet commids = {\n\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n\t};\n\thander.CallBack(0, commids, dirname);\n}","updateCheckUrl":"http://9.134.38.144:8888","buildParams":""}}}
+[2021-07-14T04:26:58.313] [INFO] cpptips - c:\Users\User\.vscode\extensions\chjshen.lanteach-client-0.0.3\images\media\src\ex.cc
+[2021-07-14T04:26:58.313] [DEBUG] cpptips - onDocumentSymbol file:///c%3A/Users/User/.vscode/extensions/chjshen.lanteach-client-0.0.3/images/media/src/ex.cc
+[2021-07-14T04:27:02.875] [INFO] cpptips - {"changes":[{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wstdio.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40string.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40yvals.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_stdio_config.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_memory.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wstring.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_memcpy_s.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40crtdbg.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40errno.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime_new_debug.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40yvals_core.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40concurrencysal.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vadefs.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40sal.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xkeycheck.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40sys%40types.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40limits.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40stdio.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime_new.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40crtdefs.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40use_ansi.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40math.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_math.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40stdlib.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wctype.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_malloc.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wstdlib.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_search.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40stddef.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime_string.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40wchar.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wconio.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wdirect.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wio.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_share.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wprocess.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wtime.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40sys%40stat.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40stdint.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40share.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40malloc.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime_exception.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40eh.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_terminate.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40float.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40intrin0.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40isa_availability.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xatomic.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xcall_once.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xerrc.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xthreads.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xtimec.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40time.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime_typeinfo.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xlocinfo.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40__msvc_system_error_abi.hpp","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xlocinfo.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40ctype.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40locale.h","type":2}]}
+[2021-07-14T04:27:02.875] [INFO] cpptips - Set {}
+[2021-07-14T04:27:03.039] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:27:03.039] [DEBUG] cpptips - begin getDocumentTree
+[2021-07-14T04:27:03.039] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:27:03.039] [DEBUG] cpptips - getDocumentTree file type not match!
+[2021-07-14T04:27:03.039] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:28:18.520] [INFO] cpptips - Set {}
+[2021-07-14T04:29:40.807] [INFO] cpptips - c:\Users\User\.vscode\extensions\chjshen.lanteach-client-0.0.3\images\media\src\ex.cc
+[2021-07-14T04:29:40.807] [DEBUG] cpptips - onDidOpenTextDocument file:///c%3A/Users/User/.vscode/extensions/chjshen.lanteach-client-0.0.3/images/media/src/ex.cc
+[2021-07-14T04:29:40.865] [INFO] cpptips - c:\Users\User\.vscode\extensions\chjshen.lanteach-client-0.0.3\images\media\src\ex.cc
+[2021-07-14T04:29:40.865] [DEBUG] cpptips - onDidOpenTextDocument file:///c%3A/Users/User/.vscode/extensions/chjshen.lanteach-client-0.0.3/images/media/src/ex.cc
+[2021-07-14T04:31:19.960] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:31:19.960] [DEBUG] cpptips - begin getDocumentTree
+[2021-07-14T04:31:19.960] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:31:19.960] [DEBUG] cpptips - getDocumentTree file type not match!
+[2021-07-14T04:31:19.960] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:31:20.031] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:31:20.031] [INFO] cpptips - 0 24
+[2021-07-14T04:31:20.031] [DEBUG] cpptips - begin getDefinePoint
+[2021-07-14T04:31:20.031] [MARK] cpptips - getDefinePoint
+[2021-07-14T04:31:20.031] [DEBUG] cpptips - getDefinePoint file type not match!
+[2021-07-14T04:31:20.031] [MARK] cpptips - getDefinePoint
+[2021-07-14T04:32:06.278] [DEBUG] cpptips - on onShutdown
+[2021-07-14T04:32:27.986] [DEBUG] cpptips - root path d:\ESP_1\LED_RGB
+[2021-07-14T04:32:34.132] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:32:34.132] [INFO] cpptips - LED_RGB.ino
+[2021-07-14T04:32:34.132] [DEBUG] cpptips - debug: file:///d%3A/ESP_1/LED_RGB/LED_RGB.ino d:/ESP_1/LED_RGB/ LED_RGB.ino
+[2021-07-14T04:32:34.509] [INFO] cpptips - c:\Users\User\.vscode\extensions\chjshen.lanteach-client-0.0.3\images\media\src\ex.cc
+[2021-07-14T04:32:34.509] [DEBUG] cpptips - onDidOpenTextDocument file:///c%3A/Users/User/.vscode/extensions/chjshen.lanteach-client-0.0.3/images/media/src/ex.cc
+[2021-07-14T04:32:34.634] [DEBUG] cpptips - fileerror
+[2021-07-14T04:32:34.809] [DEBUG] cpptips - userconfig {"needLoadLinkDir":[],"needLoadDir":[],"ignorDir":[],"ignoreFileAndDir":["^[.~]{1,1}[.]{1,128}$","^.*_tools_pb\\.(cpp|h)$","^.*testimpl_pb\\.(cpp|h)$","^.*\\.pb\\.(cc|h)$","^(sk_|sm_)[a-z0-9_.]{1,128}$","^mm3rd$","^lib32$","^lib64$","^lib64_debug$","^lib64_release$","^lib32_debug$","^lib32_release$","^debug$","^release$","^win32$","^bin$","^\\.svn$","^\\.git$","^\\.vscode$","^build64_fastbuild$"],"updateCheckIntervalTime":600000000,"defaultbuildscript":"function GetBuildCommands(hander, dirname, isCommd = true){\n\tlet commids = {\n\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n\t};\n\thander.CallBack(0, commids, dirname);\n}","updateCheckUrl":"http://9.134.38.144:8888","buildParams":""}
+[2021-07-14T04:32:34.809] [INFO] cpptips - config: {
+  basedir: 'd:/ESP_1/LED_RGB/',
+  dbpath: 'd:/ESP_1/LED_RGB//.vscode/db/cpptips.db',
+  showsql: 0,
+  extpath: 'c:\\Users\\User\\.vscode\\extensions\\widyhu.cpptips-0.4.14',
+  userConfig: {
+    needLoadLinkDir: [],
+    needLoadDir: [],
+    ignorDir: [],
+    ignoreFileAndDir: [
+      '^[.~]{1,1}[.]{1,128}$',
+      '^.*_tools_pb\\.(cpp|h)$',
+      '^.*testimpl_pb\\.(cpp|h)$',
+      '^.*\\.pb\\.(cc|h)$',
+      '^(sk_|sm_)[a-z0-9_.]{1,128}$',
+      '^mm3rd$',
+      '^lib32$',
+      '^lib64$',
+      '^lib64_debug$',
+      '^lib64_release$',
+      '^lib32_debug$',
+      '^lib32_release$',
+      '^debug$',
+      '^release$',
+      '^win32$',
+      '^bin$',
+      '^\\.svn$',
+      '^\\.git$',
+      '^\\.vscode$',
+      '^build64_fastbuild$'
+    ],
+    updateCheckIntervalTime: 600000000,
+    defaultbuildscript: 'function GetBuildCommands(hander, dirname, isCommd = true){\n' +
+      '\tlet commids = {\n' +
+      "\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n" +
+      '\t};\n' +
+      '\thander.CallBack(0, commids, dirname);\n' +
+      '}',
+    updateCheckUrl: 'http://9.134.38.144:8888',
+    buildParams: ''
+  }
+}
+[2021-07-14T04:32:34.810] [INFO] cpptips - db path! d:/ESP_1/LED_RGB//.vscode/db/cpptips.db d:/ESP_1/LED_RGB//.vscode/db
+[2021-07-14T04:32:34.810] [INFO] cpptips - KeyWordStore in constructor
+[2021-07-14T04:32:34.811] [INFO] cpptips - databasepath: d:/ESP_1/LED_RGB//.vscode/db/cpptips.db
+[2021-07-14T04:32:34.814] [INFO] cpptips - FileIndexStore in constructor
+[2021-07-14T04:32:34.815] [INFO] cpptips - begin _initSystemIncludeIndex!
+[2021-07-14T04:32:34.846] [INFO] cpptips - c:\Users\User\.vscode\extensions\chjshen.lanteach-client-0.0.3\images\media\src\ex.cc
+[2021-07-14T04:32:34.846] [DEBUG] cpptips - onDocumentSymbol file:///c%3A/Users/User/.vscode/extensions/chjshen.lanteach-client-0.0.3/images/media/src/ex.cc
+[2021-07-14T04:32:35.772] [INFO] cpptips - begin _reloadAllIncludeFile!
+[2021-07-14T04:32:35.801] [DEBUG] cpptips - _reloadAllIncludeFile {"msg_type":0,"data":{"basepath":"d:/ESP_1/LED_RGB/","dbpath":"d:/ESP_1/LED_RGB//.vscode/db/cpptips.db","userConfig":{"needLoadLinkDir":[],"needLoadDir":[],"ignorDir":[],"ignoreFileAndDir":["^[.~]{1,1}[.]{1,128}$","^.*_tools_pb\\.(cpp|h)$","^.*testimpl_pb\\.(cpp|h)$","^.*\\.pb\\.(cc|h)$","^(sk_|sm_)[a-z0-9_.]{1,128}$","^mm3rd$","^lib32$","^lib64$","^lib64_debug$","^lib64_release$","^lib32_debug$","^lib32_release$","^debug$","^release$","^win32$","^bin$","^\\.svn$","^\\.git$","^\\.vscode$","^build64_fastbuild$"],"updateCheckIntervalTime":600000000,"defaultbuildscript":"function GetBuildCommands(hander, dirname, isCommd = true){\n\tlet commids = {\n\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n\t};\n\thander.CallBack(0, commids, dirname);\n}","updateCheckUrl":"http://9.134.38.144:8888","buildParams":""}}}
+[2021-07-14T04:32:45.842] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:32:45.842] [DEBUG] cpptips - begin getDocumentTree
+[2021-07-14T04:32:45.843] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:32:45.843] [DEBUG] cpptips - getDocumentTree file type not match!
+[2021-07-14T04:32:45.843] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:32:46.004] [INFO] cpptips - {"changes":[{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wstdio.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40string.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40yvals.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_stdio_config.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_memory.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wstring.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_memcpy_s.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40crtdbg.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40errno.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime_new_debug.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40yvals_core.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40concurrencysal.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vadefs.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40sal.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xkeycheck.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40sys%40types.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40limits.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40stdio.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime_new.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40crtdefs.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40use_ansi.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40math.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_math.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40stdlib.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wctype.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_malloc.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wstdlib.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_search.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40stddef.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime_string.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40wchar.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wconio.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wdirect.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wio.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_share.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wprocess.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wtime.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40sys%40stat.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40stdint.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40share.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40malloc.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime_exception.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40eh.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_terminate.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40float.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40intrin0.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40__msvc_system_error_abi.hpp","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40isa_availability.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xatomic.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xcall_once.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xerrc.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xthreads.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xtimec.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40time.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime_typeinfo.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xlocinfo.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40ctype.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40locale.h","type":2}]}
+[2021-07-14T04:32:46.005] [INFO] cpptips - Set {}
+[2021-07-14T04:32:46.589] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:32:46.589] [DEBUG] cpptips - begin getDocumentTree
+[2021-07-14T04:32:46.589] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:32:46.590] [DEBUG] cpptips - getDocumentTree file type not match!
+[2021-07-14T04:32:46.590] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:33:58.592] [INFO] cpptips - Set {}
+[2021-07-14T04:35:22.709] [INFO] cpptips - c:\Users\User\.vscode\extensions\chjshen.lanteach-client-0.0.3\images\media\src\ex.cc
+[2021-07-14T04:35:22.709] [DEBUG] cpptips - onDidOpenTextDocument file:///c%3A/Users/User/.vscode/extensions/chjshen.lanteach-client-0.0.3/images/media/src/ex.cc
+[2021-07-14T04:35:22.776] [INFO] cpptips - c:\Users\User\.vscode\extensions\chjshen.lanteach-client-0.0.3\images\media\src\ex.cc
+[2021-07-14T04:35:22.776] [DEBUG] cpptips - onDidOpenTextDocument file:///c%3A/Users/User/.vscode/extensions/chjshen.lanteach-client-0.0.3/images/media/src/ex.cc
+[2021-07-14T04:36:28.592] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:36:28.592] [INFO] cpptips - 3 25
+[2021-07-14T04:36:28.592] [DEBUG] cpptips - begin getDefinePoint
+[2021-07-14T04:36:28.593] [MARK] cpptips - getDefinePoint
+[2021-07-14T04:36:28.593] [DEBUG] cpptips - getDefinePoint file type not match!
+[2021-07-14T04:36:28.593] [MARK] cpptips - getDefinePoint
+[2021-07-14T04:36:29.510] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:36:29.510] [INFO] cpptips - LED_RGB.ino
+[2021-07-14T04:36:29.510] [DEBUG] cpptips - fileerror
+[2021-07-14T04:36:29.585] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:36:29.585] [INFO] cpptips - LED_RGB.ino
+[2021-07-14T04:36:29.585] [DEBUG] cpptips - debug: file:///d%3A/ESP_1/LED_RGB/LED_RGB.ino d:/ESP_1/LED_RGB/ LED_RGB.ino
+[2021-07-14T04:36:30.092] [DEBUG] cpptips - fileerror
+[2021-07-14T04:36:30.589] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:36:30.589] [DEBUG] cpptips - begin getDocumentTree
+[2021-07-14T04:36:30.589] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:36:30.589] [DEBUG] cpptips - getDocumentTree file type not match!
+[2021-07-14T04:36:30.589] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:37:06.718] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:37:06.719] [INFO] cpptips - 3 24
+[2021-07-14T04:37:06.719] [DEBUG] cpptips - begin getDefinePoint
+[2021-07-14T04:37:06.719] [MARK] cpptips - getDefinePoint
+[2021-07-14T04:37:06.719] [DEBUG] cpptips - getDefinePoint file type not match!
+[2021-07-14T04:37:06.720] [MARK] cpptips - getDefinePoint
+[2021-07-14T04:37:07.581] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:37:07.581] [INFO] cpptips - 16 39
+[2021-07-14T04:37:07.582] [DEBUG] cpptips - begin getDefinePoint
+[2021-07-14T04:37:07.582] [MARK] cpptips - getDefinePoint
+[2021-07-14T04:37:07.582] [DEBUG] cpptips - getDefinePoint file type not match!
+[2021-07-14T04:37:07.582] [MARK] cpptips - getDefinePoint
+[2021-07-14T04:37:47.847] [DEBUG] cpptips - on onShutdown
+[2021-07-14T04:38:09.521] [DEBUG] cpptips - root path d:\ESP_1\LED_RGB
+[2021-07-14T04:38:10.352] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:38:10.352] [INFO] cpptips - LED_RGB.ino
+[2021-07-14T04:38:10.352] [DEBUG] cpptips - debug: file:///d%3A/ESP_1/LED_RGB/LED_RGB.ino d:/ESP_1/LED_RGB/ LED_RGB.ino
+[2021-07-14T04:38:10.539] [DEBUG] cpptips - userconfig {"needLoadLinkDir":[],"needLoadDir":[],"ignorDir":[],"ignoreFileAndDir":["^[.~]{1,1}[.]{1,128}$","^.*_tools_pb\\.(cpp|h)$","^.*testimpl_pb\\.(cpp|h)$","^.*\\.pb\\.(cc|h)$","^(sk_|sm_)[a-z0-9_.]{1,128}$","^mm3rd$","^lib32$","^lib64$","^lib64_debug$","^lib64_release$","^lib32_debug$","^lib32_release$","^debug$","^release$","^win32$","^bin$","^\\.svn$","^\\.git$","^\\.vscode$","^build64_fastbuild$"],"updateCheckIntervalTime":600000000,"defaultbuildscript":"function GetBuildCommands(hander, dirname, isCommd = true){\n\tlet commids = {\n\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n\t};\n\thander.CallBack(0, commids, dirname);\n}","updateCheckUrl":"http://9.134.38.144:8888","buildParams":""}
+[2021-07-14T04:38:10.539] [INFO] cpptips - config: {
+  basedir: 'd:/ESP_1/LED_RGB/',
+  dbpath: 'd:/ESP_1/LED_RGB//.vscode/db/cpptips.db',
+  showsql: 0,
+  extpath: 'c:\\Users\\User\\.vscode\\extensions\\widyhu.cpptips-0.4.14',
+  userConfig: {
+    needLoadLinkDir: [],
+    needLoadDir: [],
+    ignorDir: [],
+    ignoreFileAndDir: [
+      '^[.~]{1,1}[.]{1,128}$',
+      '^.*_tools_pb\\.(cpp|h)$',
+      '^.*testimpl_pb\\.(cpp|h)$',
+      '^.*\\.pb\\.(cc|h)$',
+      '^(sk_|sm_)[a-z0-9_.]{1,128}$',
+      '^mm3rd$',
+      '^lib32$',
+      '^lib64$',
+      '^lib64_debug$',
+      '^lib64_release$',
+      '^lib32_debug$',
+      '^lib32_release$',
+      '^debug$',
+      '^release$',
+      '^win32$',
+      '^bin$',
+      '^\\.svn$',
+      '^\\.git$',
+      '^\\.vscode$',
+      '^build64_fastbuild$'
+    ],
+    updateCheckIntervalTime: 600000000,
+    defaultbuildscript: 'function GetBuildCommands(hander, dirname, isCommd = true){\n' +
+      '\tlet commids = {\n' +
+      "\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n" +
+      '\t};\n' +
+      '\thander.CallBack(0, commids, dirname);\n' +
+      '}',
+    updateCheckUrl: 'http://9.134.38.144:8888',
+    buildParams: ''
+  }
+}
+[2021-07-14T04:38:10.540] [INFO] cpptips - db path! d:/ESP_1/LED_RGB//.vscode/db/cpptips.db d:/ESP_1/LED_RGB//.vscode/db
+[2021-07-14T04:38:10.541] [INFO] cpptips - KeyWordStore in constructor
+[2021-07-14T04:38:10.541] [INFO] cpptips - databasepath: d:/ESP_1/LED_RGB//.vscode/db/cpptips.db
+[2021-07-14T04:38:10.544] [INFO] cpptips - FileIndexStore in constructor
+[2021-07-14T04:38:10.545] [INFO] cpptips - begin _initSystemIncludeIndex!
+[2021-07-14T04:38:10.581] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:38:10.581] [DEBUG] cpptips - begin getDocumentTree
+[2021-07-14T04:38:10.581] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:38:10.581] [DEBUG] cpptips - getDocumentTree file type not match!
+[2021-07-14T04:38:10.581] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:38:10.868] [DEBUG] cpptips - fileerror
+[2021-07-14T04:38:11.088] [INFO] cpptips - begin _reloadAllIncludeFile!
+[2021-07-14T04:38:11.110] [DEBUG] cpptips - _reloadAllIncludeFile {"msg_type":0,"data":{"basepath":"d:/ESP_1/LED_RGB/","dbpath":"d:/ESP_1/LED_RGB//.vscode/db/cpptips.db","userConfig":{"needLoadLinkDir":[],"needLoadDir":[],"ignorDir":[],"ignoreFileAndDir":["^[.~]{1,1}[.]{1,128}$","^.*_tools_pb\\.(cpp|h)$","^.*testimpl_pb\\.(cpp|h)$","^.*\\.pb\\.(cc|h)$","^(sk_|sm_)[a-z0-9_.]{1,128}$","^mm3rd$","^lib32$","^lib64$","^lib64_debug$","^lib64_release$","^lib32_debug$","^lib32_release$","^debug$","^release$","^win32$","^bin$","^\\.svn$","^\\.git$","^\\.vscode$","^build64_fastbuild$"],"updateCheckIntervalTime":600000000,"defaultbuildscript":"function GetBuildCommands(hander, dirname, isCommd = true){\n\tlet commids = {\n\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n\t};\n\thander.CallBack(0, commids, dirname);\n}","updateCheckUrl":"http://9.134.38.144:8888","buildParams":""}}}
+[2021-07-14T04:38:20.665] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:38:20.665] [DEBUG] cpptips - begin getDocumentTree
+[2021-07-14T04:38:20.665] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:38:20.666] [DEBUG] cpptips - getDocumentTree file type not match!
+[2021-07-14T04:38:20.666] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:39:33.959] [INFO] cpptips - Set {}
+[2021-07-14T04:40:07.888] [DEBUG] cpptips - on onShutdown
+[2021-07-14T04:40:28.632] [DEBUG] cpptips - root path d:\ESP_1\LED_RGB
+[2021-07-14T04:40:30.114] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:40:30.114] [INFO] cpptips - LED_RGB.ino
+[2021-07-14T04:40:30.114] [DEBUG] cpptips - debug: file:///d%3A/ESP_1/LED_RGB/LED_RGB.ino d:/ESP_1/LED_RGB/ LED_RGB.ino
+[2021-07-14T04:40:30.490] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:40:30.490] [DEBUG] cpptips - begin getDocumentTree
+[2021-07-14T04:40:30.490] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:40:30.491] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:40:30.607] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:40:30.607] [DEBUG] cpptips - begin getDocumentTree
+[2021-07-14T04:40:30.607] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:40:30.607] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:40:30.615] [DEBUG] cpptips - fileerror
+[2021-07-14T04:40:30.649] [DEBUG] cpptips - userconfig {"needLoadLinkDir":[],"needLoadDir":[],"ignorDir":[],"ignoreFileAndDir":["^[.~]{1,1}[.]{1,128}$","^.*_tools_pb\\.(cpp|h)$","^.*testimpl_pb\\.(cpp|h)$","^.*\\.pb\\.(cc|h)$","^(sk_|sm_)[a-z0-9_.]{1,128}$","^mm3rd$","^lib32$","^lib64$","^lib64_debug$","^lib64_release$","^lib32_debug$","^lib32_release$","^debug$","^release$","^win32$","^bin$","^\\.svn$","^\\.git$","^\\.vscode$","^build64_fastbuild$"],"updateCheckIntervalTime":600000000,"defaultbuildscript":"function GetBuildCommands(hander, dirname, isCommd = true){\n\tlet commids = {\n\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n\t};\n\thander.CallBack(0, commids, dirname);\n}","updateCheckUrl":"http://9.134.38.144:8888","buildParams":""}
+[2021-07-14T04:40:30.649] [INFO] cpptips - config: {
+  basedir: 'd:/ESP_1/LED_RGB/',
+  dbpath: 'd:/ESP_1/LED_RGB//.vscode/db/cpptips.db',
+  showsql: 0,
+  extpath: 'c:\\Users\\User\\.vscode\\extensions\\widyhu.cpptips-0.4.14',
+  userConfig: {
+    needLoadLinkDir: [],
+    needLoadDir: [],
+    ignorDir: [],
+    ignoreFileAndDir: [
+      '^[.~]{1,1}[.]{1,128}$',
+      '^.*_tools_pb\\.(cpp|h)$',
+      '^.*testimpl_pb\\.(cpp|h)$',
+      '^.*\\.pb\\.(cc|h)$',
+      '^(sk_|sm_)[a-z0-9_.]{1,128}$',
+      '^mm3rd$',
+      '^lib32$',
+      '^lib64$',
+      '^lib64_debug$',
+      '^lib64_release$',
+      '^lib32_debug$',
+      '^lib32_release$',
+      '^debug$',
+      '^release$',
+      '^win32$',
+      '^bin$',
+      '^\\.svn$',
+      '^\\.git$',
+      '^\\.vscode$',
+      '^build64_fastbuild$'
+    ],
+    updateCheckIntervalTime: 600000000,
+    defaultbuildscript: 'function GetBuildCommands(hander, dirname, isCommd = true){\n' +
+      '\tlet commids = {\n' +
+      "\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n" +
+      '\t};\n' +
+      '\thander.CallBack(0, commids, dirname);\n' +
+      '}',
+    updateCheckUrl: 'http://9.134.38.144:8888',
+    buildParams: ''
+  }
+}
+[2021-07-14T04:40:30.649] [INFO] cpptips - db path! d:/ESP_1/LED_RGB//.vscode/db/cpptips.db d:/ESP_1/LED_RGB//.vscode/db
+[2021-07-14T04:40:30.650] [INFO] cpptips - KeyWordStore in constructor
+[2021-07-14T04:40:30.650] [INFO] cpptips - databasepath: d:/ESP_1/LED_RGB//.vscode/db/cpptips.db
+[2021-07-14T04:40:30.653] [INFO] cpptips - FileIndexStore in constructor
+[2021-07-14T04:40:30.654] [INFO] cpptips - begin _initSystemIncludeIndex!
+[2021-07-14T04:40:31.289] [INFO] cpptips - begin _reloadAllIncludeFile!
+[2021-07-14T04:40:31.314] [DEBUG] cpptips - _reloadAllIncludeFile {"msg_type":0,"data":{"basepath":"d:/ESP_1/LED_RGB/","dbpath":"d:/ESP_1/LED_RGB//.vscode/db/cpptips.db","userConfig":{"needLoadLinkDir":[],"needLoadDir":[],"ignorDir":[],"ignoreFileAndDir":["^[.~]{1,1}[.]{1,128}$","^.*_tools_pb\\.(cpp|h)$","^.*testimpl_pb\\.(cpp|h)$","^.*\\.pb\\.(cc|h)$","^(sk_|sm_)[a-z0-9_.]{1,128}$","^mm3rd$","^lib32$","^lib64$","^lib64_debug$","^lib64_release$","^lib32_debug$","^lib32_release$","^debug$","^release$","^win32$","^bin$","^\\.svn$","^\\.git$","^\\.vscode$","^build64_fastbuild$"],"updateCheckIntervalTime":600000000,"defaultbuildscript":"function GetBuildCommands(hander, dirname, isCommd = true){\n\tlet commids = {\n\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n\t};\n\thander.CallBack(0, commids, dirname);\n}","updateCheckUrl":"http://9.134.38.144:8888","buildParams":""}}}
+[2021-07-14T04:41:53.944] [INFO] cpptips - Set {}
+[2021-07-14T04:45:34.150] [DEBUG] cpptips - on onShutdown
+[2021-07-14T04:45:52.443] [DEBUG] cpptips - root path d:\ESP_1\LED_RGB
+[2021-07-14T04:46:00.284] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:46:00.284] [INFO] cpptips - LED_RGB.ino
+[2021-07-14T04:46:00.284] [DEBUG] cpptips - debug: file:///d%3A/ESP_1/LED_RGB/LED_RGB.ino d:/ESP_1/LED_RGB/ LED_RGB.ino
+[2021-07-14T04:46:00.793] [DEBUG] cpptips - fileerror
+[2021-07-14T04:46:01.170] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:46:01.170] [DEBUG] cpptips - begin getDocumentTree
+[2021-07-14T04:46:01.170] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:46:01.170] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:46:01.468] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:46:01.468] [DEBUG] cpptips - begin getDocumentTree
+[2021-07-14T04:46:01.468] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:46:01.468] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:46:01.603] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:46:01.603] [DEBUG] cpptips - begin getDocumentTree
+[2021-07-14T04:46:01.604] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:46:01.604] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:46:05.173] [DEBUG] cpptips - userconfig {"needLoadLinkDir":[],"needLoadDir":[],"ignorDir":[],"ignoreFileAndDir":["^[.~]{1,1}[.]{1,128}$","^.*_tools_pb\\.(cpp|h)$","^.*testimpl_pb\\.(cpp|h)$","^.*\\.pb\\.(cc|h)$","^(sk_|sm_)[a-z0-9_.]{1,128}$","^mm3rd$","^lib32$","^lib64$","^lib64_debug$","^lib64_release$","^lib32_debug$","^lib32_release$","^debug$","^release$","^win32$","^bin$","^\\.svn$","^\\.git$","^\\.vscode$","^build64_fastbuild$"],"updateCheckIntervalTime":600000000,"defaultbuildscript":"function GetBuildCommands(hander, dirname, isCommd = true){\n\tlet commids = {\n\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n\t};\n\thander.CallBack(0, commids, dirname);\n}","updateCheckUrl":"http://9.134.38.144:8888","buildParams":""}
+[2021-07-14T04:46:05.173] [INFO] cpptips - config: {
+  basedir: 'd:/ESP_1/LED_RGB/',
+  dbpath: 'd:/ESP_1/LED_RGB//.vscode/db/cpptips.db',
+  showsql: 0,
+  extpath: 'c:\\Users\\User\\.vscode\\extensions\\widyhu.cpptips-0.4.14',
+  userConfig: {
+    needLoadLinkDir: [],
+    needLoadDir: [],
+    ignorDir: [],
+    ignoreFileAndDir: [
+      '^[.~]{1,1}[.]{1,128}$',
+      '^.*_tools_pb\\.(cpp|h)$',
+      '^.*testimpl_pb\\.(cpp|h)$',
+      '^.*\\.pb\\.(cc|h)$',
+      '^(sk_|sm_)[a-z0-9_.]{1,128}$',
+      '^mm3rd$',
+      '^lib32$',
+      '^lib64$',
+      '^lib64_debug$',
+      '^lib64_release$',
+      '^lib32_debug$',
+      '^lib32_release$',
+      '^debug$',
+      '^release$',
+      '^win32$',
+      '^bin$',
+      '^\\.svn$',
+      '^\\.git$',
+      '^\\.vscode$',
+      '^build64_fastbuild$'
+    ],
+    updateCheckIntervalTime: 600000000,
+    defaultbuildscript: 'function GetBuildCommands(hander, dirname, isCommd = true){\n' +
+      '\tlet commids = {\n' +
+      "\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n" +
+      '\t};\n' +
+      '\thander.CallBack(0, commids, dirname);\n' +
+      '}',
+    updateCheckUrl: 'http://9.134.38.144:8888',
+    buildParams: ''
+  }
+}
+[2021-07-14T04:46:05.174] [INFO] cpptips - db path! d:/ESP_1/LED_RGB//.vscode/db/cpptips.db d:/ESP_1/LED_RGB//.vscode/db
+[2021-07-14T04:46:05.174] [INFO] cpptips - KeyWordStore in constructor
+[2021-07-14T04:46:05.174] [INFO] cpptips - databasepath: d:/ESP_1/LED_RGB//.vscode/db/cpptips.db
+[2021-07-14T04:46:05.178] [INFO] cpptips - FileIndexStore in constructor
+[2021-07-14T04:46:05.179] [INFO] cpptips - begin _initSystemIncludeIndex!
+[2021-07-14T04:46:05.568] [INFO] cpptips - begin _reloadAllIncludeFile!
+[2021-07-14T04:46:05.589] [DEBUG] cpptips - _reloadAllIncludeFile {"msg_type":0,"data":{"basepath":"d:/ESP_1/LED_RGB/","dbpath":"d:/ESP_1/LED_RGB//.vscode/db/cpptips.db","userConfig":{"needLoadLinkDir":[],"needLoadDir":[],"ignorDir":[],"ignoreFileAndDir":["^[.~]{1,1}[.]{1,128}$","^.*_tools_pb\\.(cpp|h)$","^.*testimpl_pb\\.(cpp|h)$","^.*\\.pb\\.(cc|h)$","^(sk_|sm_)[a-z0-9_.]{1,128}$","^mm3rd$","^lib32$","^lib64$","^lib64_debug$","^lib64_release$","^lib32_debug$","^lib32_release$","^debug$","^release$","^win32$","^bin$","^\\.svn$","^\\.git$","^\\.vscode$","^build64_fastbuild$"],"updateCheckIntervalTime":600000000,"defaultbuildscript":"function GetBuildCommands(hander, dirname, isCommd = true){\n\tlet commids = {\n\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n\t};\n\thander.CallBack(0, commids, dirname);\n}","updateCheckUrl":"http://9.134.38.144:8888","buildParams":""}}}
+[2021-07-14T04:46:05.764] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:46:05.764] [DEBUG] cpptips - begin getDocumentTree
+[2021-07-14T04:46:05.764] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:46:05.764] [DEBUG] cpptips - getDocumentTree file type not match!
+[2021-07-14T04:46:05.764] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:46:05.775] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:46:05.776] [DEBUG] cpptips - begin getDocumentTree
+[2021-07-14T04:46:05.776] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:46:05.776] [DEBUG] cpptips - getDocumentTree file type not match!
+[2021-07-14T04:46:05.776] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:47:27.921] [INFO] cpptips - Set {}
+[2021-07-14T04:48:17.884] [DEBUG] cpptips - on onShutdown
+[2021-07-14T04:48:46.530] [DEBUG] cpptips - root path d:\ESP_1\LED_RGB
+[2021-07-14T04:48:46.726] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:48:46.727] [INFO] cpptips - LED_RGB.ino
+[2021-07-14T04:48:46.727] [DEBUG] cpptips - debug: file:///d%3A/ESP_1/LED_RGB/LED_RGB.ino d:/ESP_1/LED_RGB/ LED_RGB.ino
+[2021-07-14T04:48:47.229] [DEBUG] cpptips - fileerror
+[2021-07-14T04:48:47.301] [DEBUG] cpptips - userconfig {"needLoadLinkDir":[],"needLoadDir":[],"ignorDir":[],"ignoreFileAndDir":["^[.~]{1,1}[.]{1,128}$","^.*_tools_pb\\.(cpp|h)$","^.*testimpl_pb\\.(cpp|h)$","^.*\\.pb\\.(cc|h)$","^(sk_|sm_)[a-z0-9_.]{1,128}$","^mm3rd$","^lib32$","^lib64$","^lib64_debug$","^lib64_release$","^lib32_debug$","^lib32_release$","^debug$","^release$","^win32$","^bin$","^\\.svn$","^\\.git$","^\\.vscode$","^build64_fastbuild$"],"updateCheckIntervalTime":600000000,"defaultbuildscript":"function GetBuildCommands(hander, dirname, isCommd = true){\n\tlet commids = {\n\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n\t};\n\thander.CallBack(0, commids, dirname);\n}","updateCheckUrl":"http://9.134.38.144:8888","buildParams":""}
+[2021-07-14T04:48:47.302] [INFO] cpptips - config: {
+  basedir: 'd:/ESP_1/LED_RGB/',
+  dbpath: 'd:/ESP_1/LED_RGB//.vscode/db/cpptips.db',
+  showsql: 0,
+  extpath: 'c:\\Users\\User\\.vscode\\extensions\\widyhu.cpptips-0.4.14',
+  userConfig: {
+    needLoadLinkDir: [],
+    needLoadDir: [],
+    ignorDir: [],
+    ignoreFileAndDir: [
+      '^[.~]{1,1}[.]{1,128}$',
+      '^.*_tools_pb\\.(cpp|h)$',
+      '^.*testimpl_pb\\.(cpp|h)$',
+      '^.*\\.pb\\.(cc|h)$',
+      '^(sk_|sm_)[a-z0-9_.]{1,128}$',
+      '^mm3rd$',
+      '^lib32$',
+      '^lib64$',
+      '^lib64_debug$',
+      '^lib64_release$',
+      '^lib32_debug$',
+      '^lib32_release$',
+      '^debug$',
+      '^release$',
+      '^win32$',
+      '^bin$',
+      '^\\.svn$',
+      '^\\.git$',
+      '^\\.vscode$',
+      '^build64_fastbuild$'
+    ],
+    updateCheckIntervalTime: 600000000,
+    defaultbuildscript: 'function GetBuildCommands(hander, dirname, isCommd = true){\n' +
+      '\tlet commids = {\n' +
+      "\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n" +
+      '\t};\n' +
+      '\thander.CallBack(0, commids, dirname);\n' +
+      '}',
+    updateCheckUrl: 'http://9.134.38.144:8888',
+    buildParams: ''
+  }
+}
+[2021-07-14T04:48:47.302] [INFO] cpptips - db path! d:/ESP_1/LED_RGB//.vscode/db/cpptips.db d:/ESP_1/LED_RGB//.vscode/db
+[2021-07-14T04:48:47.303] [INFO] cpptips - KeyWordStore in constructor
+[2021-07-14T04:48:47.303] [INFO] cpptips - databasepath: d:/ESP_1/LED_RGB//.vscode/db/cpptips.db
+[2021-07-14T04:48:47.306] [INFO] cpptips - FileIndexStore in constructor
+[2021-07-14T04:48:47.307] [INFO] cpptips - begin _initSystemIncludeIndex!
+[2021-07-14T04:48:47.444] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:48:47.444] [DEBUG] cpptips - begin getDocumentTree
+[2021-07-14T04:48:47.444] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:48:47.445] [DEBUG] cpptips - getDocumentTree file type not match!
+[2021-07-14T04:48:47.445] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:48:48.344] [INFO] cpptips - begin _reloadAllIncludeFile!
+[2021-07-14T04:48:48.368] [DEBUG] cpptips - _reloadAllIncludeFile {"msg_type":0,"data":{"basepath":"d:/ESP_1/LED_RGB/","dbpath":"d:/ESP_1/LED_RGB//.vscode/db/cpptips.db","userConfig":{"needLoadLinkDir":[],"needLoadDir":[],"ignorDir":[],"ignoreFileAndDir":["^[.~]{1,1}[.]{1,128}$","^.*_tools_pb\\.(cpp|h)$","^.*testimpl_pb\\.(cpp|h)$","^.*\\.pb\\.(cc|h)$","^(sk_|sm_)[a-z0-9_.]{1,128}$","^mm3rd$","^lib32$","^lib64$","^lib64_debug$","^lib64_release$","^lib32_debug$","^lib32_release$","^debug$","^release$","^win32$","^bin$","^\\.svn$","^\\.git$","^\\.vscode$","^build64_fastbuild$"],"updateCheckIntervalTime":600000000,"defaultbuildscript":"function GetBuildCommands(hander, dirname, isCommd = true){\n\tlet commids = {\n\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n\t};\n\thander.CallBack(0, commids, dirname);\n}","updateCheckUrl":"http://9.134.38.144:8888","buildParams":""}}}
+[2021-07-14T04:48:56.258] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:48:56.258] [DEBUG] cpptips - begin getDocumentTree
+[2021-07-14T04:48:56.258] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:48:56.258] [DEBUG] cpptips - getDocumentTree file type not match!
+[2021-07-14T04:48:56.258] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:50:11.701] [INFO] cpptips - Set {}
+[2021-07-14T04:52:32.830] [DEBUG] cpptips - on onShutdown
+[2021-07-14T04:52:55.690] [DEBUG] cpptips - root path d:\ESP_1\LED_RGB
+[2021-07-14T04:52:55.837] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:52:55.837] [INFO] cpptips - LED_RGB.ino
+[2021-07-14T04:52:55.837] [DEBUG] cpptips - debug: file:///d%3A/ESP_1/LED_RGB/LED_RGB.ino d:/ESP_1/LED_RGB/ LED_RGB.ino
+[2021-07-14T04:52:56.159] [DEBUG] cpptips - userconfig {"needLoadLinkDir":[],"needLoadDir":[],"ignorDir":[],"ignoreFileAndDir":["^[.~]{1,1}[.]{1,128}$","^.*_tools_pb\\.(cpp|h)$","^.*testimpl_pb\\.(cpp|h)$","^.*\\.pb\\.(cc|h)$","^(sk_|sm_)[a-z0-9_.]{1,128}$","^mm3rd$","^lib32$","^lib64$","^lib64_debug$","^lib64_release$","^lib32_debug$","^lib32_release$","^debug$","^release$","^win32$","^bin$","^\\.svn$","^\\.git$","^\\.vscode$","^build64_fastbuild$"],"updateCheckIntervalTime":600000000,"defaultbuildscript":"function GetBuildCommands(hander, dirname, isCommd = true){\n\tlet commids = {\n\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n\t};\n\thander.CallBack(0, commids, dirname);\n}","updateCheckUrl":"http://9.134.38.144:8888","buildParams":""}
+[2021-07-14T04:52:56.160] [INFO] cpptips - config: {
+  basedir: 'd:/ESP_1/LED_RGB/',
+  dbpath: 'd:/ESP_1/LED_RGB//.vscode/db/cpptips.db',
+  showsql: 0,
+  extpath: 'c:\\Users\\User\\.vscode\\extensions\\widyhu.cpptips-0.4.14',
+  userConfig: {
+    needLoadLinkDir: [],
+    needLoadDir: [],
+    ignorDir: [],
+    ignoreFileAndDir: [
+      '^[.~]{1,1}[.]{1,128}$',
+      '^.*_tools_pb\\.(cpp|h)$',
+      '^.*testimpl_pb\\.(cpp|h)$',
+      '^.*\\.pb\\.(cc|h)$',
+      '^(sk_|sm_)[a-z0-9_.]{1,128}$',
+      '^mm3rd$',
+      '^lib32$',
+      '^lib64$',
+      '^lib64_debug$',
+      '^lib64_release$',
+      '^lib32_debug$',
+      '^lib32_release$',
+      '^debug$',
+      '^release$',
+      '^win32$',
+      '^bin$',
+      '^\\.svn$',
+      '^\\.git$',
+      '^\\.vscode$',
+      '^build64_fastbuild$'
+    ],
+    updateCheckIntervalTime: 600000000,
+    defaultbuildscript: 'function GetBuildCommands(hander, dirname, isCommd = true){\n' +
+      '\tlet commids = {\n' +
+      "\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n" +
+      '\t};\n' +
+      '\thander.CallBack(0, commids, dirname);\n' +
+      '}',
+    updateCheckUrl: 'http://9.134.38.144:8888',
+    buildParams: ''
+  }
+}
+[2021-07-14T04:52:56.160] [INFO] cpptips - db path! d:/ESP_1/LED_RGB//.vscode/db/cpptips.db d:/ESP_1/LED_RGB//.vscode/db
+[2021-07-14T04:52:56.161] [INFO] cpptips - KeyWordStore in constructor
+[2021-07-14T04:52:56.161] [INFO] cpptips - databasepath: d:/ESP_1/LED_RGB//.vscode/db/cpptips.db
+[2021-07-14T04:52:56.164] [INFO] cpptips - FileIndexStore in constructor
+[2021-07-14T04:52:56.165] [INFO] cpptips - begin _initSystemIncludeIndex!
+[2021-07-14T04:52:56.349] [DEBUG] cpptips - fileerror
+[2021-07-14T04:52:56.379] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:52:56.379] [DEBUG] cpptips - begin getDocumentTree
+[2021-07-14T04:52:56.379] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:52:56.379] [DEBUG] cpptips - getDocumentTree file type not match!
+[2021-07-14T04:52:56.379] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:52:56.421] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:52:56.421] [DEBUG] cpptips - begin getDocumentTree
+[2021-07-14T04:52:56.421] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:52:56.421] [DEBUG] cpptips - getDocumentTree file type not match!
+[2021-07-14T04:52:56.421] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:52:57.046] [INFO] cpptips - begin _reloadAllIncludeFile!
+[2021-07-14T04:52:57.066] [DEBUG] cpptips - _reloadAllIncludeFile {"msg_type":0,"data":{"basepath":"d:/ESP_1/LED_RGB/","dbpath":"d:/ESP_1/LED_RGB//.vscode/db/cpptips.db","userConfig":{"needLoadLinkDir":[],"needLoadDir":[],"ignorDir":[],"ignoreFileAndDir":["^[.~]{1,1}[.]{1,128}$","^.*_tools_pb\\.(cpp|h)$","^.*testimpl_pb\\.(cpp|h)$","^.*\\.pb\\.(cc|h)$","^(sk_|sm_)[a-z0-9_.]{1,128}$","^mm3rd$","^lib32$","^lib64$","^lib64_debug$","^lib64_release$","^lib32_debug$","^lib32_release$","^debug$","^release$","^win32$","^bin$","^\\.svn$","^\\.git$","^\\.vscode$","^build64_fastbuild$"],"updateCheckIntervalTime":600000000,"defaultbuildscript":"function GetBuildCommands(hander, dirname, isCommd = true){\n\tlet commids = {\n\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n\t};\n\thander.CallBack(0, commids, dirname);\n}","updateCheckUrl":"http://9.134.38.144:8888","buildParams":""}}}
+[2021-07-14T04:53:38.511] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:53:38.511] [INFO] cpptips - 7 11
+[2021-07-14T04:53:38.511] [DEBUG] cpptips - begin getDefinePoint
+[2021-07-14T04:53:38.511] [MARK] cpptips - getDefinePoint
+[2021-07-14T04:53:38.511] [DEBUG] cpptips - getDefinePoint file type not match!
+[2021-07-14T04:53:38.511] [MARK] cpptips - getDefinePoint
+[2021-07-14T04:53:40.045] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\tempCodeRunnerFile.ino tempCodeRunnerFile.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:53:40.045] [INFO] cpptips - tempCodeRunnerFile.ino
+[2021-07-14T04:53:40.045] [DEBUG] cpptips - debug: file:///d%3A/ESP_1/LED_RGB/tempCodeRunnerFile.ino d:/ESP_1/LED_RGB/ tempCodeRunnerFile.ino
+[2021-07-14T04:53:40.059] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\tempCodeRunnerFile.ino tempCodeRunnerFile.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:53:40.059] [DEBUG] cpptips - begin getDocumentTree
+[2021-07-14T04:53:40.059] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:53:40.059] [DEBUG] cpptips - getDocumentTree file type not match!
+[2021-07-14T04:53:40.059] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:53:40.551] [DEBUG] cpptips - fileerror
+[2021-07-14T04:53:43.259] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\tempCodeRunnerFile.ino tempCodeRunnerFile.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:53:43.259] [INFO] cpptips - tempCodeRunnerFile.ino
+[2021-07-14T04:53:43.259] [DEBUG] cpptips - fileerror
+[2021-07-14T04:53:43.323] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\tempCodeRunnerFile.ino tempCodeRunnerFile.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:53:43.323] [INFO] cpptips - tempCodeRunnerFile.ino
+[2021-07-14T04:53:43.323] [DEBUG] cpptips - debug: file:///d%3A/ESP_1/LED_RGB/tempCodeRunnerFile.ino d:/ESP_1/LED_RGB/ tempCodeRunnerFile.ino
+[2021-07-14T04:53:43.834] [DEBUG] cpptips - fileerror
+[2021-07-14T04:53:44.499] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\tempCodeRunnerFile.ino tempCodeRunnerFile.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:53:44.499] [DEBUG] cpptips - begin getDocumentTree
+[2021-07-14T04:53:44.499] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:53:44.499] [DEBUG] cpptips - getDocumentTree file type not match!
+[2021-07-14T04:53:44.499] [MARK] cpptips - getDocumentTree
+[2021-07-14T04:54:02.706] [DEBUG] cpptips - onDidOpenTextDocument file:///d%3A/ESP_1/LED_RGB/tempCodeRunnerFile.ino
+[2021-07-14T04:54:07.562] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T04:54:07.563] [INFO] cpptips - 19 6
+[2021-07-14T04:54:07.563] [DEBUG] cpptips - begin getDefinePoint
+[2021-07-14T04:54:07.563] [MARK] cpptips - getDefinePoint
+[2021-07-14T04:54:07.563] [DEBUG] cpptips - getDefinePoint file type not match!
+[2021-07-14T04:54:07.563] [MARK] cpptips - getDefinePoint
+[2021-07-14T04:54:19.664] [INFO] cpptips - Set {}
+[2021-07-14T04:58:15.214] [DEBUG] cpptips - on onShutdown
+[2021-07-14T06:04:44.992] [DEBUG] cpptips - root path d:\ESP_1\LED_RGB
+[2021-07-14T06:04:47.113] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T06:04:47.113] [INFO] cpptips - LED_RGB.ino
+[2021-07-14T06:04:47.113] [DEBUG] cpptips - debug: file:///d%3A/ESP_1/LED_RGB/LED_RGB.ino d:/ESP_1/LED_RGB/ LED_RGB.ino
+[2021-07-14T06:04:47.512] [INFO] cpptips - c:\Users\User\.vscode\extensions\chjshen.lanteach-client-0.0.3\images\media\src\ex.cc
+[2021-07-14T06:04:47.512] [DEBUG] cpptips - onDidOpenTextDocument file:///c%3A/Users/User/.vscode/extensions/chjshen.lanteach-client-0.0.3/images/media/src/ex.cc
+[2021-07-14T06:04:47.618] [DEBUG] cpptips - fileerror
+[2021-07-14T06:04:47.680] [INFO] cpptips - c:\Users\User\.vscode\extensions\chjshen.lanteach-client-0.0.3\images\media\src\ex.cc
+[2021-07-14T06:04:47.680] [DEBUG] cpptips - onDocumentSymbol file:///c%3A/Users/User/.vscode/extensions/chjshen.lanteach-client-0.0.3/images/media/src/ex.cc
+[2021-07-14T06:04:47.851] [INFO] cpptips - c:\Users\User\.vscode\extensions\chjshen.lanteach-client-0.0.3\images\media\src\ex.cc
+[2021-07-14T06:04:47.851] [DEBUG] cpptips - onDocumentSymbol file:///c%3A/Users/User/.vscode/extensions/chjshen.lanteach-client-0.0.3/images/media/src/ex.cc
+[2021-07-14T06:04:49.042] [INFO] cpptips - c:\Users\User\.vscode\extensions\chjshen.lanteach-client-0.0.3\images\media\src\ex.cc
+[2021-07-14T06:04:49.042] [DEBUG] cpptips - onDocumentSymbol file:///c%3A/Users/User/.vscode/extensions/chjshen.lanteach-client-0.0.3/images/media/src/ex.cc
+[2021-07-14T06:04:49.099] [DEBUG] cpptips - userconfig {"needLoadLinkDir":[],"needLoadDir":[],"ignorDir":[],"ignoreFileAndDir":["^[.~]{1,1}[.]{1,128}$","^.*_tools_pb\\.(cpp|h)$","^.*testimpl_pb\\.(cpp|h)$","^.*\\.pb\\.(cc|h)$","^(sk_|sm_)[a-z0-9_.]{1,128}$","^mm3rd$","^lib32$","^lib64$","^lib64_debug$","^lib64_release$","^lib32_debug$","^lib32_release$","^debug$","^release$","^win32$","^bin$","^\\.svn$","^\\.git$","^\\.vscode$","^build64_fastbuild$"],"updateCheckIntervalTime":600000000,"defaultbuildscript":"function GetBuildCommands(hander, dirname, isCommd = true){\n\tlet commids = {\n\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n\t};\n\thander.CallBack(0, commids, dirname);\n}","updateCheckUrl":"http://9.134.38.144:8888","buildParams":""}
+[2021-07-14T06:04:49.099] [INFO] cpptips - config: {
+  basedir: 'd:/ESP_1/LED_RGB/',
+  dbpath: 'd:/ESP_1/LED_RGB//.vscode/db/cpptips.db',
+  showsql: 0,
+  extpath: 'c:\\Users\\User\\.vscode\\extensions\\widyhu.cpptips-0.4.14',
+  userConfig: {
+    needLoadLinkDir: [],
+    needLoadDir: [],
+    ignorDir: [],
+    ignoreFileAndDir: [
+      '^[.~]{1,1}[.]{1,128}$',
+      '^.*_tools_pb\\.(cpp|h)$',
+      '^.*testimpl_pb\\.(cpp|h)$',
+      '^.*\\.pb\\.(cc|h)$',
+      '^(sk_|sm_)[a-z0-9_.]{1,128}$',
+      '^mm3rd$',
+      '^lib32$',
+      '^lib64$',
+      '^lib64_debug$',
+      '^lib64_release$',
+      '^lib32_debug$',
+      '^lib32_release$',
+      '^debug$',
+      '^release$',
+      '^win32$',
+      '^bin$',
+      '^\\.svn$',
+      '^\\.git$',
+      '^\\.vscode$',
+      '^build64_fastbuild$'
+    ],
+    updateCheckIntervalTime: 600000000,
+    defaultbuildscript: 'function GetBuildCommands(hander, dirname, isCommd = true){\n' +
+      '\tlet commids = {\n' +
+      "\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n" +
+      '\t};\n' +
+      '\thander.CallBack(0, commids, dirname);\n' +
+      '}',
+    updateCheckUrl: 'http://9.134.38.144:8888',
+    buildParams: ''
+  }
+}
+[2021-07-14T06:04:49.100] [INFO] cpptips - db path! d:/ESP_1/LED_RGB//.vscode/db/cpptips.db d:/ESP_1/LED_RGB//.vscode/db
+[2021-07-14T06:04:49.100] [INFO] cpptips - KeyWordStore in constructor
+[2021-07-14T06:04:49.100] [INFO] cpptips - databasepath: d:/ESP_1/LED_RGB//.vscode/db/cpptips.db
+[2021-07-14T06:04:49.104] [INFO] cpptips - FileIndexStore in constructor
+[2021-07-14T06:04:49.105] [INFO] cpptips - begin _initSystemIncludeIndex!
+[2021-07-14T06:04:49.888] [INFO] cpptips - begin _reloadAllIncludeFile!
+[2021-07-14T06:04:49.908] [DEBUG] cpptips - _reloadAllIncludeFile {"msg_type":0,"data":{"basepath":"d:/ESP_1/LED_RGB/","dbpath":"d:/ESP_1/LED_RGB//.vscode/db/cpptips.db","userConfig":{"needLoadLinkDir":[],"needLoadDir":[],"ignorDir":[],"ignoreFileAndDir":["^[.~]{1,1}[.]{1,128}$","^.*_tools_pb\\.(cpp|h)$","^.*testimpl_pb\\.(cpp|h)$","^.*\\.pb\\.(cc|h)$","^(sk_|sm_)[a-z0-9_.]{1,128}$","^mm3rd$","^lib32$","^lib64$","^lib64_debug$","^lib64_release$","^lib32_debug$","^lib32_release$","^debug$","^release$","^win32$","^bin$","^\\.svn$","^\\.git$","^\\.vscode$","^build64_fastbuild$"],"updateCheckIntervalTime":600000000,"defaultbuildscript":"function GetBuildCommands(hander, dirname, isCommd = true){\n\tlet commids = {\n\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n\t};\n\thander.CallBack(0, commids, dirname);\n}","updateCheckUrl":"http://9.134.38.144:8888","buildParams":""}}}
+[2021-07-14T06:04:53.484] [INFO] cpptips - {"changes":[{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wstdio.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40string.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40yvals.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_stdio_config.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_memory.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wstring.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_memcpy_s.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40crtdbg.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40errno.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime_new_debug.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40yvals_core.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40concurrencysal.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vadefs.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40sal.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xkeycheck.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40sys%40types.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40limits.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40stdio.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime_new.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40crtdefs.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40use_ansi.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40math.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_math.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40stdlib.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wctype.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_malloc.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wstdlib.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_search.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40stddef.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime_string.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40wchar.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wconio.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wdirect.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wio.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_share.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wprocess.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wtime.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40sys%40stat.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40stdint.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40share.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40malloc.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime_exception.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40eh.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_terminate.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40float.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40intrin0.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40isa_availability.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xatomic.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xcall_once.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xerrc.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xthreads.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xtimec.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40time.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime_typeinfo.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xlocinfo.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40ctype.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40locale.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40__msvc_system_error_abi.hpp","type":2}]}
+[2021-07-14T06:04:53.485] [INFO] cpptips - Set {}
+[2021-07-14T06:05:42.284] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T06:05:42.285] [DEBUG] cpptips - begin getDocumentTree
+[2021-07-14T06:05:42.285] [MARK] cpptips - getDocumentTree
+[2021-07-14T06:05:42.285] [DEBUG] cpptips - getDocumentTree file type not match!
+[2021-07-14T06:05:42.285] [MARK] cpptips - getDocumentTree
+[2021-07-14T06:06:13.142] [INFO] cpptips - Set {}
+[2021-07-14T06:07:38.057] [INFO] cpptips - c:\Users\User\.vscode\extensions\chjshen.lanteach-client-0.0.3\images\media\src\ex.cc
+[2021-07-14T06:07:38.057] [DEBUG] cpptips - onDidOpenTextDocument file:///c%3A/Users/User/.vscode/extensions/chjshen.lanteach-client-0.0.3/images/media/src/ex.cc
+[2021-07-14T06:07:38.124] [INFO] cpptips - c:\Users\User\.vscode\extensions\chjshen.lanteach-client-0.0.3\images\media\src\ex.cc
+[2021-07-14T06:07:38.124] [DEBUG] cpptips - onDidOpenTextDocument file:///c%3A/Users/User/.vscode/extensions/chjshen.lanteach-client-0.0.3/images/media/src/ex.cc
+[2021-07-14T06:10:38.124] [INFO] cpptips - c:\Users\User\.vscode\extensions\chjshen.lanteach-client-0.0.3\images\media\src\ex.cc
+[2021-07-14T06:10:38.124] [DEBUG] cpptips - onDidOpenTextDocument file:///c%3A/Users/User/.vscode/extensions/chjshen.lanteach-client-0.0.3/images/media/src/ex.cc
+[2021-07-14T06:10:38.187] [INFO] cpptips - c:\Users\User\.vscode\extensions\chjshen.lanteach-client-0.0.3\images\media\src\ex.cc
+[2021-07-14T06:10:38.187] [DEBUG] cpptips - onDidOpenTextDocument file:///c%3A/Users/User/.vscode/extensions/chjshen.lanteach-client-0.0.3/images/media/src/ex.cc
+[2021-07-14T06:10:49.737] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T06:10:49.737] [INFO] cpptips - 8 10
+[2021-07-14T06:10:49.737] [DEBUG] cpptips - begin getDefinePoint
+[2021-07-14T06:10:49.737] [MARK] cpptips - getDefinePoint
+[2021-07-14T06:10:49.737] [DEBUG] cpptips - getDefinePoint file type not match!
+[2021-07-14T06:10:49.737] [MARK] cpptips - getDefinePoint
+[2021-07-14T06:11:15.525] [DEBUG] cpptips - on onShutdown
+[2021-07-14T06:11:39.632] [DEBUG] cpptips - root path d:\ESP_1\LED_RGB
+[2021-07-14T06:11:41.799] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T06:11:41.799] [INFO] cpptips - LED_RGB.ino
+[2021-07-14T06:11:41.799] [DEBUG] cpptips - debug: file:///d%3A/ESP_1/LED_RGB/LED_RGB.ino d:/ESP_1/LED_RGB/ LED_RGB.ino
+[2021-07-14T06:11:41.886] [INFO] cpptips - c:\Users\User\.vscode\extensions\chjshen.lanteach-client-0.0.3\images\media\src\ex.cc
+[2021-07-14T06:11:41.886] [DEBUG] cpptips - onDidOpenTextDocument file:///c%3A/Users/User/.vscode/extensions/chjshen.lanteach-client-0.0.3/images/media/src/ex.cc
+[2021-07-14T06:11:42.134] [INFO] cpptips - c:\Users\User\.vscode\extensions\chjshen.lanteach-client-0.0.3\images\media\src\ex.cc
+[2021-07-14T06:11:42.135] [DEBUG] cpptips - onDocumentSymbol file:///c%3A/Users/User/.vscode/extensions/chjshen.lanteach-client-0.0.3/images/media/src/ex.cc
+[2021-07-14T06:11:42.265] [DEBUG] cpptips - userconfig {"needLoadLinkDir":[],"needLoadDir":[],"ignorDir":[],"ignoreFileAndDir":["^[.~]{1,1}[.]{1,128}$","^.*_tools_pb\\.(cpp|h)$","^.*testimpl_pb\\.(cpp|h)$","^.*\\.pb\\.(cc|h)$","^(sk_|sm_)[a-z0-9_.]{1,128}$","^mm3rd$","^lib32$","^lib64$","^lib64_debug$","^lib64_release$","^lib32_debug$","^lib32_release$","^debug$","^release$","^win32$","^bin$","^\\.svn$","^\\.git$","^\\.vscode$","^build64_fastbuild$"],"updateCheckIntervalTime":600000000,"defaultbuildscript":"function GetBuildCommands(hander, dirname, isCommd = true){\n\tlet commids = {\n\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n\t};\n\thander.CallBack(0, commids, dirname);\n}","updateCheckUrl":"http://9.134.38.144:8888","buildParams":""}
+[2021-07-14T06:11:42.266] [INFO] cpptips - config: {
+  basedir: 'd:/ESP_1/LED_RGB/',
+  dbpath: 'd:/ESP_1/LED_RGB//.vscode/db/cpptips.db',
+  showsql: 0,
+  extpath: 'c:\\Users\\User\\.vscode\\extensions\\widyhu.cpptips-0.4.14',
+  userConfig: {
+    needLoadLinkDir: [],
+    needLoadDir: [],
+    ignorDir: [],
+    ignoreFileAndDir: [
+      '^[.~]{1,1}[.]{1,128}$',
+      '^.*_tools_pb\\.(cpp|h)$',
+      '^.*testimpl_pb\\.(cpp|h)$',
+      '^.*\\.pb\\.(cc|h)$',
+      '^(sk_|sm_)[a-z0-9_.]{1,128}$',
+      '^mm3rd$',
+      '^lib32$',
+      '^lib64$',
+      '^lib64_debug$',
+      '^lib64_release$',
+      '^lib32_debug$',
+      '^lib32_release$',
+      '^debug$',
+      '^release$',
+      '^win32$',
+      '^bin$',
+      '^\\.svn$',
+      '^\\.git$',
+      '^\\.vscode$',
+      '^build64_fastbuild$'
+    ],
+    updateCheckIntervalTime: 600000000,
+    defaultbuildscript: 'function GetBuildCommands(hander, dirname, isCommd = true){\n' +
+      '\tlet commids = {\n' +
+      "\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n" +
+      '\t};\n' +
+      '\thander.CallBack(0, commids, dirname);\n' +
+      '}',
+    updateCheckUrl: 'http://9.134.38.144:8888',
+    buildParams: ''
+  }
+}
+[2021-07-14T06:11:42.267] [INFO] cpptips - db path! d:/ESP_1/LED_RGB//.vscode/db/cpptips.db d:/ESP_1/LED_RGB//.vscode/db
+[2021-07-14T06:11:42.267] [INFO] cpptips - KeyWordStore in constructor
+[2021-07-14T06:11:42.268] [INFO] cpptips - databasepath: d:/ESP_1/LED_RGB//.vscode/db/cpptips.db
+[2021-07-14T06:11:42.271] [INFO] cpptips - FileIndexStore in constructor
+[2021-07-14T06:11:42.272] [INFO] cpptips - begin _initSystemIncludeIndex!
+[2021-07-14T06:11:42.368] [DEBUG] cpptips - fileerror
+[2021-07-14T06:11:42.369] [INFO] cpptips - c:\Users\User\.vscode\extensions\chjshen.lanteach-client-0.0.3\images\media\src\ex.cc
+[2021-07-14T06:11:42.369] [DEBUG] cpptips - onDocumentSymbol file:///c%3A/Users/User/.vscode/extensions/chjshen.lanteach-client-0.0.3/images/media/src/ex.cc
+[2021-07-14T06:11:43.197] [INFO] cpptips - begin _reloadAllIncludeFile!
+[2021-07-14T06:11:43.224] [DEBUG] cpptips - _reloadAllIncludeFile {"msg_type":0,"data":{"basepath":"d:/ESP_1/LED_RGB/","dbpath":"d:/ESP_1/LED_RGB//.vscode/db/cpptips.db","userConfig":{"needLoadLinkDir":[],"needLoadDir":[],"ignorDir":[],"ignoreFileAndDir":["^[.~]{1,1}[.]{1,128}$","^.*_tools_pb\\.(cpp|h)$","^.*testimpl_pb\\.(cpp|h)$","^.*\\.pb\\.(cc|h)$","^(sk_|sm_)[a-z0-9_.]{1,128}$","^mm3rd$","^lib32$","^lib64$","^lib64_debug$","^lib64_release$","^lib32_debug$","^lib32_release$","^debug$","^release$","^win32$","^bin$","^\\.svn$","^\\.git$","^\\.vscode$","^build64_fastbuild$"],"updateCheckIntervalTime":600000000,"defaultbuildscript":"function GetBuildCommands(hander, dirname, isCommd = true){\n\tlet commids = {\n\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n\t};\n\thander.CallBack(0, commids, dirname);\n}","updateCheckUrl":"http://9.134.38.144:8888","buildParams":""}}}
+[2021-07-14T06:11:44.812] [INFO] cpptips - {"changes":[{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wstdio.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40string.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40yvals.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_stdio_config.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_memory.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wstring.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_memcpy_s.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40crtdbg.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40errno.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime_new_debug.h","type":2}]}
+[2021-07-14T06:11:44.812] [INFO] cpptips - Set {}
+[2021-07-14T06:11:47.992] [INFO] cpptips - {"changes":[{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40yvals_core.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40concurrencysal.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vadefs.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40sal.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xkeycheck.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40sys%40types.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40limits.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40stdio.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime_new.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40crtdefs.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40use_ansi.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40math.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_math.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40stdlib.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wctype.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_malloc.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wstdlib.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_search.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40stddef.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime_string.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40wchar.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wconio.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wdirect.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wio.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_share.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wprocess.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_wtime.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40sys%40stat.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40stdint.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40share.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40malloc.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime_exception.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40eh.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40corecrt_terminate.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40float.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40intrin0.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40isa_availability.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xatomic.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xcall_once.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xerrc.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xthreads.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xtimec.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40time.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40vcruntime_typeinfo.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40xlocinfo.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40ctype.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Windows%20Kits%4010%40Include%4010.0.19041.0%40ucrt%40locale.h","type":2},{"uri":"file:///d%3A/ESP_1/LED_RGB/.vscode/esls-cache/%40D%40%40ESP_1%40LED_RGB/C%40%40Program%20Files%20%28x86%29%40Microsoft%20Visual%20Studio%402019%40Community%40VC%40Tools%40MSVC%4014.29.30037%40include%40__msvc_system_error_abi.hpp","type":2}]}
+[2021-07-14T06:11:47.992] [INFO] cpptips - Set {}
+[2021-07-14T06:12:08.382] [DEBUG] cpptips - path not root: d:\ESP_1\LED_RGB\LED_RGB.ino LED_RGB.ino d:/ESP_1/LED_RGB/
+[2021-07-14T06:12:08.383] [DEBUG] cpptips - begin getDocumentTree
+[2021-07-14T06:12:08.383] [MARK] cpptips - getDocumentTree
+[2021-07-14T06:12:08.383] [DEBUG] cpptips - getDocumentTree file type not match!
+[2021-07-14T06:12:08.383] [MARK] cpptips - getDocumentTree
+[2021-07-14T06:13:06.566] [INFO] cpptips - Set {}
+[2021-07-14T06:14:08.822] [DEBUG] cpptips - on onShutdown

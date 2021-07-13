@@ -34,5 +34,7 @@
   },
   "terminal.integrated.scrollback": 1000000000,
   "arduino.path": "C:\\Program Files (x86)\\Arduino",
-  "arduino.commandPath": "arduino_debug.exe"
+  "arduino.commandPath": "arduino_debug.exe",
+  "files.autoSave": "afterDelay",
+  "cquery.cacheDirectory": "${workspaceFolder}/.vscode/cquery_cached_index/"
 }
