@@ -1,0 +1,61 @@
+[2021-07-11T06:13:45.105] [DEBUG] cpptips - needLoadDir: []
+[2021-07-11T06:13:45.106] [DEBUG] cpptips - needLoadLinkDir: []
+[2021-07-11T06:13:45.107] [DEBUG] cpptips - 回调消息： []
+[2021-07-11T06:13:45.108] [DEBUG] cpptips - {
+  needLoadLinkDir: [],
+  needLoadDir: [],
+  ignorDir: [],
+  ignoreFileAndDir: [
+    '^[.~]{1,1}[.]{1,128}$',
+    '^.*_tools_pb\\.(cpp|h)$',
+    '^.*testimpl_pb\\.(cpp|h)$',
+    '^.*\\.pb\\.(cc|h)$',
+    '^(sk_|sm_)[a-z0-9_.]{1,128}$',
+    '^mm3rd$',
+    '^lib32$',
+    '^lib64$',
+    '^lib64_debug$',
+    '^lib64_release$',
+    '^lib32_debug$',
+    '^lib32_release$',
+    '^debug$',
+    '^release$',
+    '^win32$',
+    '^bin$',
+    '^\\.svn$',
+    '^\\.git$',
+    '^\\.vscode$',
+    '^build64_fastbuild$'
+  ],
+  updateCheckIntervalTime: 600000000,
+  defaultbuildscript: 'function GetBuildCommands(hander, dirname, isCommd = true){\n' +
+    '\tlet commids = {\n' +
+    "\t\t'make':'make clean; make -j 8;mv a.out /tmp/;'\n" +
+    '\t};\n' +
+    '\thander.CallBack(0, commids, dirname);\n' +
+    '}',
+  updateCheckUrl: 'http://9.134.38.144:8888',
+  buildParams: ''
+}
+[2021-07-11T06:13:45.109] [DEBUG] cpptips - 回调消息： [
+  '^[.~]{1,1}[.]{1,128}$',
+  '^.*_tools_pb\\.(cpp|h)$',
+  '^.*testimpl_pb\\.(cpp|h)$',
+  '^.*\\.pb\\.(cc|h)$',
+  '^(sk_|sm_)[a-z0-9_.]{1,128}$',
+  '^mm3rd$',
+  '^lib32$',
+  '^lib64$',
+  '^lib64_debug$',
+  '^lib64_release$',
+  '^lib32_debug$',
+  '^lib32_release$',
+  '^debug$',
+  '^release$',
+  '^win32$',
+  '^bin$',
+  '^\\.svn$',
+  '^\\.git$',
+  '^\\.vscode$',
+  '^build64_fastbuild$'
+]
