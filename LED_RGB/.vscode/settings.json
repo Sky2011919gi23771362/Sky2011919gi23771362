@@ -15,5 +15,24 @@
   "esls.clang.extraArgs": [
     "  "
   ],
-  "idf.adapterTargetName": "esp32c3"
+  "idf.adapterTargetName": "esp32c3",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "kunpeng.func",
+        "settings": {
+          "foreground": "#28a745"
+        }
+      },
+      {
+        "scope": "kunpeng.intrinsics",
+        "settings": {
+          "foreground": "#28a745"
+        }
+      }
+    ]
+  },
+  "terminal.integrated.scrollback": 1000000000,
+  "arduino.path": "C:\\Program Files (x86)\\Arduino",
+  "arduino.commandPath": "arduino_debug.exe"
 }
